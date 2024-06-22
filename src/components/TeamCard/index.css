@@ -1,0 +1,35 @@
+.cards-main {
+  border: 2px solid #ffffff33;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 70px;
+  width: 125px;
+}
+.cards-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+}
+.cards-heading {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.list-cards {
+  list-style: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .cards-main {
+    width: 250px;
+    height: 100px;
+  }
+  .cards-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
